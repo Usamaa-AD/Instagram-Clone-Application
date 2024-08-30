@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Instagram App Practice</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="signup">Signup</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="add_picture">Add Picture</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="finish">Finish</string>
+    <string name="search">Search</string>
+    <string name="upload">Upload</string>
+    <string name="reels">Reels</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username_profile_fragment">username</string>
+    <string name="add_post">Add Post</string>
+    <string name="add_reel">Add reel</string>
+    <string name="your_post_may_appear_in_the_posts_tab_under_your_profile_section">Your post may appear in the posts tab under your profile section</string>
+    <string name="write_a_caption">Write a caption</string>
+    <string name="select_from_gallery">Select From Gallery</string>
+    <string name="upload_reel">Upload</string>
+    <string name="cancel">Cancel</string>
+</resources>

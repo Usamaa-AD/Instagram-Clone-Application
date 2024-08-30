@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "724306254907",
+    "project_id": "temporary-ed037",
+    "storage_bucket": "temporary-ed037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724306254907:android:25243c2a6817da5477901e",
+        "android_client_info": {
+          "package_name": "com.example.fivesix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRERjkC2_UOolwBhSAezx_bn0w71IVsNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724306254907:android:2538c79d2ecf609c77901e",
+        "android_client_info": {
+          "package_name": "com.example.instagramapppractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRERjkC2_UOolwBhSAezx_bn0w71IVsNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724306254907:android:41966e0fc645eebf77901e",
+        "android_client_info": {
+          "package_name": "com.example.last"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRERjkC2_UOolwBhSAezx_bn0w71IVsNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724306254907:android:76ac5d83c50b7f9b77901e",
+        "android_client_info": {
+          "package_name": "com.example.notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRERjkC2_UOolwBhSAezx_bn0w71IVsNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724306254907:android:9142dcd6a31209ed77901e",
+        "android_client_info": {
+          "package_name": "com.example.threefour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRERjkC2_UOolwBhSAezx_bn0w71IVsNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
