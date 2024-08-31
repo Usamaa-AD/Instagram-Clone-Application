@@ -54,7 +54,7 @@ class PostActivity : AppCompatActivity() {
         }
         binding.postButton.setOnClickListener {
             post = Posts(binding.caption.editText?.text.toString(),postUrl,System.currentTimeMillis().toString(),Firebase.auth.currentUser!!.uid)
-            Firebase.firestore.collection(POST_FOLDER).document(Firebase.auth.currentUser!!.uid).set(post).addOnSuccessListener {
+            Firebase.firestore.collection(POST_FOLDER).document().set(post).addOnSuccessListener {
                 Firebase.firestore.collection(INDIVIDUAL_POST+Firebase.auth.currentUser!!.uid).document().set(post).addOnSuccessListener {
                     FancyToast.makeText(this,"Post Uploaded",FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,false).show()
                     startActivity(Intent(this,HomeActivity::class.java))

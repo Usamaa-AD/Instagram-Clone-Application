@@ -33,18 +33,13 @@ fun showMenu(context: Context,view: View){
             }
             R.id.logout ->{
                 val alertDialog = AlertDialog.Builder(context)
-                alertDialog.setTitle("Delete Account")
-                alertDialog.setMessage("Are you sure you want to delete your account?")
+                alertDialog.setTitle("Log out of your Account")
+                alertDialog.setMessage("Are you sure you want to Log out?")
                 alertDialog.setPositiveButton("Yes"){DialogInterface, which ->
-                    Firebase.firestore.collection(USER_NODE).document(Firebase.auth.currentUser!!.uid).delete().addOnSuccessListener {
-                        val user = Firebase.auth.currentUser
-                        user?.delete()?.addOnSuccessListener {
-                            val intent = Intent(context,Signup::class.java)
-                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or  Intent.FLAG_ACTIVITY_CLEAR_TASK
-                            context.startActivity(intent)
-                        }
-
-                    }
+                Firebase.auth.signOut()
+                    val intent = Intent(context,Signup::class.java)
+                    context.startActivity(intent)
+                    Toast.makeText(context,"Logged Out",Toast.LENGTH_SHORT).show()
 
                 }
                 alertDialog.setNegativeButton("No"){DialogInterface,which->
